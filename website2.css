@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex
+}
+
+.logo h1 {
+    align-self: center;
+}
+
+p {
+    align-self: center;
+}
+
+.social-media {
+    align-self: center;
+    margin-right: 20px;
+}
+
+.social-media i {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
+.header {
+    background: url(img/banner1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:80%;
+    height:40vh;
+    margin:0 auto;
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+.header h1{color:white; z-index: 1000; }
+.container{display:flex; margin-top:40px; flex:1; margin-left:125px}
+.container li{list-style-type: none;}
+.çizgi{border-top:2px solid gray; width:200px;}
+  
+   .menu ul  li{padding-top:20px; font-family: 'Source Sans Pro', sans-serif;   }
+@import url('https://fonts.googleapis.com/ css2?family=Source+Sans+Pro&display=swap');
+
+.personel img{width:400px; }
+
+.yazilimci img {width:400px; }
+.kisiler{ font-family: 'Source Sans Pro', sans-serif;   }
+.btn{color:aqua}
+
+.kisi{display:flex;}
+.personel2{display:flex; position:relative; right:30px;} 
+.personel2 img{width:400px; margin:20px;}
+
+li a{text-decoration: none; color:black;}
+menu i{color:black;}
+hr{width:200px;}
+.personeller2{display:flex;}
+.btn{width:150px; height:50px; background-color:blue; border:none; border-radius:20px; color:white;}
+.bar{width:1000px; background-position: center; height:40px; margin-left:20px; background-color: black; border-radius: 10px; color:white; text-align: center; margin-top:10px; }
+
+.kimiz{width:100%; margin-top:20px;}
+.containe{display:flex;}
+.foto-biz img{width:400px;}
+.foto-biz {float:left;}
+.yazi{position:relative; left:5px;}
+.biz  p{text-indent:20px;}
+.referans img{width:300px;}
+.referans{margin:20px;}
+.grup1{display: flex;}
+.grup2{display: flex;}
+.grup{display: flex; flex-direction:column; align-items: center;}
+
+
+.referans img:hover{opacity:0.7; transition:0.8s}
+.galeriler{display:flex;}
+.galeriler img{margin:10px;}
+.galeriler img{width:200px;}
+.galeri{display: flex; flex-direction: column; align-items: center;}
+
+.adresresim{margin:20px;}
+.konteynir{background-color: gray; width:100vw ; height: 1000px;}
+.iletisim{width:500px; border-radius: 20px;  height:400px;background-color: cadetblue;}
+.iletisimler{display: flex; justify-content:center}
+.iletisim{display: flex; justify-content: center;} 
